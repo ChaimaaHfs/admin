@@ -1,0 +1,14 @@
+.accounts {
+    display: flex;
+  
+    .accountsContainer {
+      flex: 6;
+  
+      .widgets,
+      .charts {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+      }
+    }
+}

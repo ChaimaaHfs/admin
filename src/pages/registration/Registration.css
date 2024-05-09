@@ -1,0 +1,14 @@
+.registration {
+    display: flex;
+  
+    .registrationContainer {
+      flex: 6;
+  
+      .widgets,
+      .charts {
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+      }
+    }
+}
